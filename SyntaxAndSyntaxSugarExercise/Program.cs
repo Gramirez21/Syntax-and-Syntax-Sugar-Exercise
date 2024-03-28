@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int answer = 4;
+
+            var response = (answer > 9)
+            ? $"{answer} is greater"
+            : $"{answer} is lower";
         }
     }
 }
